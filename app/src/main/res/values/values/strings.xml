@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Paper Route</string>
+    <string name="distributor_id">distributor_id</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="distributor_s_username">Tharuka Ravisara</string>
+    <string name="directions">Directions</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_again">Update Again</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="user_name">%1$s</string>
+    <string name="last_updated">Last Updated | %1$s</string>
+    <string name="schedule_updated">Schedule Updated</string>
+    <string name="my_location">My Location</string>
+    <string name="show_trip">Show Trip</string>
+</resources>

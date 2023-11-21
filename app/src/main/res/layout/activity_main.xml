@@ -1,0 +1,426 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme"
+            android:padding="14dp">
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:id="@+id/goodMorningTextView"
+                android:layout_width="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/good_morning"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:id="@+id/usernameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:layout_below="@+id/goodMorningTextView"
+                android:layout_centerHorizontal="true"
+                android:text="@string/distributor_s_username"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/profileButton"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="14dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/circle_background"
+                android:src="@drawable/profile" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_below="@id/firstCardView"
+        android:id="@+id/firstLiniarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+<androidx.cardview.widget.CardView
+            android:id="@+id/completedCardView"
+            android:layout_width="115dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#59A9F1"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="--"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="90dp"
+                android:text="Completed"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="112dp"
+                android:text="Deliveries"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap" />
+
+</androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/upcomingCardView"
+            android:layout_width="115dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#3B9BEF"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/upcoming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="--"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="112dp"
+                android:text="Deliveries"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="90dp"
+                android:text="Upcoming"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/EndingCard"
+            android:layout_width="115dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            app:cardBackgroundColor="#78B9F3"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/endsoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="--"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="90dp"
+                android:text="Ending"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="112dp"
+                android:text="Subsbribers"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/updatecardview"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@id/firstLiniarLayout"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardElevation="5dp"
+        android:backgroundTint="#2E90E8"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"
+            android:text="Delivery Schedule"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/updateDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:alpha="0.7"
+            android:fontFamily="sans-serif"
+            android:text="Last Updated | Date "
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="65dp"
+            android:backgroundTint="#FEFEFE"
+            android:drawableEnd="@drawable/download"
+            android:paddingStart="48dp"
+            android:paddingEnd="40dp"
+            android:text="@string/update_now"
+            android:textColor="#2E8FE7" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/threeCardView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/updatecardview"
+        android:layout_alignStart="@id/firstCardView"
+        android:layout_alignEnd="@id/firstLiniarLayout"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ScheduleCard"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FDFDFD"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="32dp"
+                android:text="Schedule"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textColor="#737775"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RelativeOverlap" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/book_24" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/MapCard"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FEFEFE"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="32dp"
+                android:text="Navigation"
+                android:textAlignment="center"
+                android:textColor="#737775"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RelativeOverlap" />
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/navigation" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardNextDelivery"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/threeCardView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="#FEFEFE"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="65dp"
+            android:src="@drawable/map"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:text="Next Delivery"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/theme"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/NextDeliveryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:text="User Name | City"
+            android:layout_marginTop="80dp"
+            android:textColor="#99000000"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <Button
+            android:id="@+id/btnDirection"
+            android:text="@string/directions"
+            android:layout_width="200dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/theme"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="50dp"
+            android:elevation="20dp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

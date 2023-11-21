@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:visibility="visible">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardCornerRadius="30dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/MyLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/theme"
+                android:text="@string/my_location" />
+
+            <Button
+                android:id="@+id/showTrip"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="40dp"
+                android:layout_toEndOf="@id/MyLocation"
+                android:backgroundTint="@color/theme"
+                android:text="@string/show_trip" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/showOffline"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="260dp"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/theme"
+        android:textColor="@color/white"
+        android:text="OFFLINE"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

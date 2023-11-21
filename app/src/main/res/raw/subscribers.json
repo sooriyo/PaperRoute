@@ -1,0 +1,162 @@
+[
+    {
+        "SubscriberId": "SB001",
+        "name": "Deepthi Kumari",
+        "city": "Wellawatta",
+        "address": "No. 86, Dharmapala Road",
+        "phone": "011-2586458",
+        "latitude": 6.8514,
+        "longitude": 79.8673,
+        "subscriptions": [
+            {
+                "newspaper": "Daily News",
+                "subscriptionEnd": "2023-07-15",
+                "type": "weekend"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB002",
+        "name": "Inoka Rodrigo",
+        "city": "Slave Island",
+        "address": "No. 8/A2/20, Flower Road",
+        "phone": "011-7859630",
+        "latitude": 6.7730,
+        "longitude": 79.8816,
+        "subscriptions": [
+            {
+                "newspaper": "Daily Mirror",
+                "subscriptionEnd": "2023-07-10",
+                "type": "weekend"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB003",
+        "name": "Nishi Perera",
+        "city": "Bambalapitiya",
+        "address": "No. 69/5, Serpentine Road",
+        "phone": "011-3659682",
+        "latitude": 6.8740,
+        "longitude": 79.8897,
+        "subscriptions": [
+            {
+                "newspaper": "Ceylon Today",
+                "subscriptionEnd": "2023-07-20",
+                "type": "week"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB004",
+        "name": "Jayatha Waduge",
+        "city": "Fort",
+        "address": "No. 36, Kalyani Road",
+        "phone": "011-5864571",
+        "latitude": 6.8912,
+        "longitude": 79.9257,
+        "subscriptions": [
+            {
+                "newspaper": "Sunday Times",
+                "subscriptionEnd": "2023-07-12",
+                "type": "weekend"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB005",
+        "name": "Tharushi Silva",
+        "city": "kotte",
+        "address": "No. 25/A, St Mary’s Road",
+        "phone": "011-2659824",
+        "latitude": 6.9163,
+        "longitude": 79.9276,
+        "subscriptions": [
+            {
+                "newspaper": "Lankadeepa",
+                "subscriptionEnd": "2023-07-18",
+                "type": "week"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB006",
+        "name": "Sujeewa Perera",
+        "city": "Dehiwala",
+        "address": "No. 45/15, Park Tower Road",
+        "phone": "011-5594736",
+        "latitude": 6.8407,
+        "longitude": 79.8724,
+        "subscriptions": [
+            {
+                "newspaper": "The Island",
+                "subscriptionEnd": "2023-07-14",
+                "type": "weekend"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB007",
+        "name": "Mike Wallace",
+        "city": "Dematagoda",
+        "address": "No. 3/3, Pedris Road",
+        "phone": "011-3177004",
+        "latitude": 6.8014,
+        "longitude": 79.9866,
+        "subscriptions": [
+            {
+                "newspaper": "Daily FT",
+                "subscriptionEnd": "2023-07-19",
+                "type": "weekend"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB008",
+        "name": "Tishi Fernando",
+        "city": "Pettah",
+        "address": "No. 73/3B, Tickell Road",
+        "phone": "011-4562357",
+        "latitude": 6.8511,
+        "longitude": 79.9243,
+        "subscriptions": [
+            {
+                "newspaper": "The Sunday Leader",
+                "subscriptionEnd": "2023-07-11",
+                "type": "week"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB009",
+        "name": "Malini Fernando",
+        "city": "Kolpity",
+        "address": "No. 5, Rockwood Road",
+        "phone": "011-2963506",
+        "latitude": 6.9247,
+        "longitude": 79.9707,
+        "subscriptions": [
+            {
+                "newspaper": "Ada Derana",
+                "subscriptionEnd": "2023-07-17",
+                "type": "week"
+            }
+        ]
+    },
+    {
+        "SubscriberId": "SB0010",
+        "name": "Asela Sirisena",
+        "city": "Borella",
+        "address": "No. 15, Carmel Road",
+        "phone": "011-2389781",
+        "latitude": 6.9149,
+        "longitude": 79.9702,
+        "subscriptions": [
+            {
+                "newspaper": "Lanka News",
+                "subscriptionEnd": "2023-07-13",
+                "type": "weekend"
+            }
+        ]
+    }
+]
